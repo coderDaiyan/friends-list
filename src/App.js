@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Friends from "./Components/Friends/Friends";
 import { useState } from "react";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [friends, setFriends] = useState([]);
@@ -21,6 +22,7 @@ function App() {
     <div className="App">
       <Navbar friends={friends} handleAddFriends={handleAddFriends}></Navbar>
       <Friends handleAddFriends={handleAddFriends}></Friends>
+      <Footer></Footer>
     </div>
   );
 }
