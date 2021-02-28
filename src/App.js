@@ -5,6 +5,8 @@ import { useState } from "react";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
+  document.addEventListener("contextmenu", (event) => event.preventDefault());
+
   const [friends, setFriends] = useState([]);
 
   const handleAddFriends = (friend) => {

@@ -1,5 +1,9 @@
 footer {
-  background-color: blue;
+  background-color: #bb2d3b;
   color: white;
   padding: 20px;
+}
+
+footer::selection {
+  color: white;
 }

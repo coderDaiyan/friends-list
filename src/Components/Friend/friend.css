@@ -8,8 +8,21 @@ h2 {
   font-weight: bold;
 }
 
+h2::selection {
+  color: white;
+  background-color: red;
+}
+
+h4::selection {
+  color: #bb2d3b;
+}
+
 img {
   width: 175px;
+}
+
+img::selection {
+  background-color: #bb2d3b;
 }
 
 .friend-div {
